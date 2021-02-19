@@ -20,8 +20,8 @@ function draw() {
     }else{
       rad-=0.002
     }
-    ellipse(i, 400*noise(i)+height/10, rad+(sin(frameCount/50)),rad+(sin(frameCount/50)));
-    // fill(map(rad, 0, rad, 0,255));
+    ellipse(i, 400*noise(i)+height/10, rad+(sin(frameCount/10)),rad+(sin(frameCount/10)));
+  
     pop();
   }
 }
