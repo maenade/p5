@@ -8,7 +8,7 @@ function windowResized() {
 }
 
 function draw() {
-  background(40);
+  background(0);
   noStroke();
   fill(244,150);
   rad=0.8
@@ -16,9 +16,9 @@ function draw() {
   for(i=0; i<width; i+=0.3){
     push();
     if(i<width/2){
-      rad+=0.002
+      rad+=0.0015
     }else{
-      rad-=0.002
+      rad-=0.0015
     }
     ellipse(i, 400*noise(i)+height/10, rad+(sin(frameCount/10)),rad+(sin(frameCount/10)));
   
