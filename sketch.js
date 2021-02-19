@@ -1,6 +1,6 @@
 var rad;
 function setup() {
-  createCanvas(windowWidth, 400);
+  createCanvas(1000, 400);
 }
 
 function draw() {
